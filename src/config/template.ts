@@ -6,7 +6,7 @@
 
 export const TEMPLATE_CONFIG = {
   /** Image de fond officielle (affiche complète, non modifiable) */
-  background: "/assets/Affiche Baye Niass Day à Dakar.png",
+  background: "/assets/Affiche_Baye_Niass_Day_finale_v2.png",
 
   /** Dimensions natives de l'image de fond (px) */
   width: 1024,
@@ -43,11 +43,11 @@ export const ASSETS = {
 
 export const EVENT_INFO = {
   eventName: "Baye Niass Day",
-  date: "08 novembre 2026",
+  date: "dimanche 08 novembre 2026 à 8h",
   location: "Keur Baye Dieuppeul",
   ctaText: "J'y serai",
   contactPhones: ["77 294 33 72", "77 797 67 68"],
-  organizer: "La Jeunesse Talibé de Baye Niass",
+  organizer: "Jeune disciple de Baye Niass",
 } as const;
 
 /** Paramètres du recadreur ajustés au ratio de l'ouverture photo */
