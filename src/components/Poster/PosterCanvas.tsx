@@ -23,7 +23,7 @@ export function PosterCanvas() {
       {/* Affiche officielle — fond jamais modifié */}
       <Image
         src={TEMPLATE_CONFIG.background}
-        alt="Affiche Baye Niass Day à Dakar"
+        alt="Affiche de la Caravane Magal JUDD à Taiba Niassène"
         fill
         priority
         sizes="(max-width: 768px) 100vw, 480px"
