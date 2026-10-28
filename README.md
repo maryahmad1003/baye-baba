@@ -22,7 +22,7 @@ npm run lint    # ESLint
 
 ## Comment ça marche
 
-1. **`public/assets/template.jpeg`** est l'affiche officielle complète
+1. **`public/assets/image.png`** est l'affiche officielle complète
    (logo, portraits, textes, vagues, cercle blanc, bandeau) — **jamais modifiée**.
 2. Le cercle blanc de l'affiche est la seule zone interactive
    (`src/components/Poster/PosterCanvas.tsx`). Un clic ouvre le sélecteur de

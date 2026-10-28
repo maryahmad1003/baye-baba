@@ -6,18 +6,18 @@
 
 export const TEMPLATE_CONFIG = {
   /** Image de fond officielle (affiche complète, non modifiable) */
-  background: "/assets/Affiche_Baye_Niass_Day_finale_v2.png",
+  background: "/assets/image.png",
 
   /** Dimensions natives de l'image de fond (px) */
-  width: 1024,
-  height: 1536,
+  width: 905,
+  height: 1280,
 
   /** Ouverture réservée à la photo de l'utilisateur (coordonnées en px, base = width/height ci-dessus) */
   circle: {
-    centerX: 341,
-    centerY: 1060,
-    radiusX: 234,
-    radiusY: 238,
+    centerX: 276,
+    centerY: 985,
+    radiusX: 193,
+    radiusY: 192,
   },
 
   /** Debord sous le contour pour que la photo remplisse toute l'ouverture blanche (px) */
@@ -30,7 +30,7 @@ export const TEMPLATE_CONFIG = {
   export: {
     mimeType: "image/png" as const,
     quality: 1,
-    fileName: "baye-niass-day.png",
+    fileName: "caravane-magal-judd.png",
   },
 } as const;
 
@@ -42,12 +42,12 @@ export const ASSETS = {
 } as const;
 
 export const EVENT_INFO = {
-  eventName: "Baye Niass Day",
-  date: "dimanche 08 novembre 2026 à 8h",
-  location: "Keur Baye Dieuppeul",
+  eventName: "Caravane Magal JUDD",
+  date: "vendredi 25 décembre",
+  location: "Medina Baye - Leona Niassène - Taiba Niassène - Kossy",
   ctaText: "J'y serai",
-  contactPhones: ["77 294 33 72", "77 797 67 68"],
-  organizer: "Jeune disciple de Baye Niass",
+  contactPhones: ["78 151 82 82", "76 996 30 08", "78 220 11 03"],
+  organizer: "Ak Khadimou Fayda",
 } as const;
 
 /** Paramètres du recadreur ajustés au ratio de l'ouverture photo */
@@ -61,5 +61,5 @@ export const CROPPER_CONFIG = {
 
 export const WHATSAPP_SHARE = {
   baseUrl: "https://wa.me/",
-  defaultMessage: `Je serai présent(e) au ${EVENT_INFO.eventName} à Dakar, le ${EVENT_INFO.date} ! 🎉`,
+  defaultMessage: `Je serai présent(e) à la ${EVENT_INFO.eventName}, le ${EVENT_INFO.date} ! 🎉`,
 };
